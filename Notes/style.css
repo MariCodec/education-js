@@ -1,0 +1,670 @@
+.wrapper {
+}
+.firstHeader {
+  display: flex;
+  align-items: center;
+}
+.firstBlockHiden {
+}
+.header {
+  height: 120px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lockedButton {
+  background-color: lightgray;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.blockFirst {
+  display: flex;
+  margin: 10px;
+}
+.buttonBold {
+  font-weight: bold;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.buttonCursive {
+}
+
+.buttonUnderline {
+  text-decoration: underline;
+}
+.hover {
+  cursor: pointer;
+  box-sizing: border-box;
+  padding-top: 15px;
+  /* text-decoration: underline; */
+  text-align: center;
+  font-size: 20px;
+  /* font-weight: bold; */
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+.hover:hover {
+  box-shadow: 3px 0px 0px 4px lightgray;
+  background-color: rgb(234, 230, 230);
+}
+.buttonline-through {
+  text-decoration: line-through;
+
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.blockSecond {
+  cursor: pointer;
+  display: flex;
+}
+.buttonAlignLeft {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.buttonAlignCenter {
+}
+.buttonAlignRight {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.blockThird {
+  display: flex;
+  margin: 10px;
+}
+
+.buttonFamily {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 0;
+}
+.buttonFSize {
+  border: 0;
+}
+.buttonTextColor {
+}
+
+.buttonBackGround {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.ButtonLogin {
+  border-radius: 4px;
+}
+.buttonImg {
+  width: 20px;
+  height: 20px;
+}
+/* 
+
+
+
+*/
+.content {
+  font-size: 25px;
+  min-height: 1000px;
+}
+
+/* 
+
+
+
+*/
+.option {
+  /* visibility: hidden; */
+  border: 2px gray solid;
+}
+.blockColorText {
+  display: none;
+  border: 1px solid;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 440px;
+  height: 250px;
+  background-color: #fff;
+}
+
+.blockTitle {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.close {
+  cursor: pointer;
+  padding: 30px;
+  color: gray;
+}
+.title {
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 30px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+.hiddenColorText {
+  /* display: none; */
+}
+.colorsText {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.color {
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  font-size: 0;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+/* background */
+.blockColorBackGround {
+  display: none;
+  border: 1px solid;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 470px;
+  height: 350px;
+  background-color: #fff;
+}
+.subtitle {
+  display: flex;
+}
+.colors {
+  cursor: pointer;
+  color: deepskyblue;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.images {
+  cursor: pointer;
+  color: deepskyblue;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.files {
+  cursor: pointer;
+  color: deepskyblue;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.hiddenblockImages {
+  display: none;
+}
+.imagesBackground {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.image {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border: 10px solid #fff;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5%;
+}
+.subtitle {
+  border-bottom: 1px solid gray;
+}
+.colorsBackground {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.colorBackground {
+  margin-top: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  font-size: 0;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+.closeBackgroundBlock {
+  cursor: pointer;
+  padding: 30px;
+  color: gray;
+}
+p {
+  margin: 0px;
+  padding: 5px;
+}
+.hiddenForms {
+  display: none;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  margin: 10px 10px;
+  border-radius: 5px;
+  width: 420px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+}
+/* .custom-file-upload:focus {
+  border: 2px solid deepskyblue;
+  box-shadow: deepskyblue;
+} */
+
+/*  TABLE */
+.tableBlock {
+  display: none;
+}
+.contentTextArea {
+  display: none;
+}
+.headerTable {
+}
+.buttonSave {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.blockOption {
+  cursor: pointer;
+  display: flex;
+}
+.buttonCreateTable {
+}
+.buttonOList {
+}
+.buttonUList {
+  border: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* 
+
+*/
+.myTextContent {
+  width: 100%;
+  height: 300px;
+}
+/* 
+
+create table
+*/
+.createTableBlock {
+  display: none;
+}
+.myTable {
+  width: 700px;
+  height: 400px;
+  border: 1px solid gray;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10%;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+.myTableBlock-title {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.myTable-title {
+  color: rgb(92, 90, 90);
+  font-size: 25px;
+}
+.myTable-close {
+  cursor: pointer;
+  padding-right: 20px;
+  color: gray;
+}
+.myTable-content {
+  box-sizing: border-box;
+  color: gray;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.tableBlockFirst {
+  margin: 0px 10px;
+}
+.tableRow {
+}
+.CountTR {
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 25px;
+}
+.tableWidth {
+}
+.widthTD {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 25px;
+}
+.widthBorder {
+}
+.borderWidth {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 25px;
+}
+
+.ResetTableButton {
+  cursor: pointer;
+  margin-top: 14px;
+  font-size: 15px;
+  width: 310px;
+  height: 40px;
+  color: white;
+  background-color: rgb(219, 11, 11);
+  border-radius: 6px;
+}
+.tableBlockSecond {
+  margin-left: 20px;
+}
+.tableDate {
+}
+.CountTD {
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 25px;
+}
+.tableHeight {
+}
+.heightTD {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 25px;
+}
+.blockSection {
+  display: flex;
+}
+.styleBorder-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.styleBorder {
+  margin: 5px 10px 10px 0px;
+
+  width: 145px;
+  height: 30px;
+}
+.colorBorder-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ColorBorder {
+  margin: 5px 0px 10px 10px;
+  width: 145px;
+  height: 30px;
+}
+.tableButton {
+  cursor: pointer;
+  font-size: 15px;
+  width: 310px;
+  height: 40px;
+  color: white;
+  background-color: rgb(5, 157, 5);
+  border-radius: 6px;
+}
+/* list */
+.createListBlockO {
+  display: none;
+}
+.oderedList {
+  box-sizing: border-box;
+  width: 500px;
+  height: 320px;
+  border: 1px solid gray;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10%;
+  left: 0;
+  right: 0;
+
+  background-color: white;
+}
+.oderedListTitle {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.myList-title {
+  color: rgb(92, 90, 90);
+  font-size: 25px;
+}
+
+.myListClose {
+  cursor: pointer;
+  padding-right: 20px;
+  color: gray;
+}
+.listContent {
+  box-sizing: border-box;
+  color: gray;
+  margin: 15px;
+}
+.countOl {
+  font-size: 20px;
+}
+.countOlist {
+  margin: 10px 0px;
+  width: 98%;
+  height: 30px;
+}
+
+.OlMarks {
+  font-size: 20px;
+}
+.listOmark {
+  margin: 10px 0px;
+  width: 100%;
+  height: 35px;
+  color: gray;
+}
+.markOl {
+}
+.olButton {
+  margin-left: 10px;
+}
+.resetOlButton {
+  cursor: pointer;
+
+  font-size: 15px;
+  width: 235px;
+  height: 45px;
+  color: white;
+  background-color: rgb(219, 11, 11);
+  border-radius: 6px;
+}
+.createOlbutton {
+  cursor: pointer;
+  font-size: 15px;
+  width: 235px;
+  height: 45px;
+  color: white;
+  background-color: rgb(5, 157, 5);
+  border-radius: 6px;
+}
+/* unlist */
+.createListBlockU {
+  display: none;
+}
+.resetUlButton {
+  cursor: pointer;
+
+  font-size: 15px;
+  width: 235px;
+  height: 45px;
+  color: white;
+  background-color: rgb(219, 11, 11);
+  border-radius: 6px;
+}
+
+.createUlbutton {
+  cursor: pointer;
+  font-size: 15px;
+  width: 235px;
+  height: 45px;
+  color: white;
+  background-color: rgb(5, 157, 5);
+  border-radius: 6px;
+}
+.myListCloseU {
+  cursor: pointer;
+  padding-right: 20px;
+  color: gray;
+}
+.listUmark {
+  margin: 10px 0px;
+  width: 100%;
+  height: 35px;
+  color: gray;
+}
+/* loginform */
+.loginFormBlock {
+  display: none;
+}
+.myForm {
+  box-sizing: border-box;
+  width: 500px;
+  height: 320px;
+  border: 1px solid gray;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10%;
+  left: 0;
+  right: 0;
+
+  background-color: white;
+}
+.myform {
+}
+
+.listContent {
+}
+.myFormTitle {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.myForm-title {
+  /* color: rgb(92, 90, 90); */
+
+  font-size: 25px;
+}
+.myForm-close {
+  cursor: pointer;
+  padding-right: 20px;
+  color: gray;
+}
+.myFormContent {
+  box-sizing: border-box;
+  color: gray;
+  margin: 15px;
+}
+.formLogin {
+}
+.login {
+  margin: 10px 5px;
+  width: 98%;
+  height: 30px;
+}
+.formpassword {
+}
+.invalidText {
+  display: none;
+  color: rgb(225, 92, 92);
+}
+.password {
+  margin: 10px 5px 0px 5px;
+  width: 98%;
+  height: 30px;
+}
+/* .borderRedColor {
+
+  border: 1px rgb(225, 92, 92) solid;
+  box-shadow: 0px 0px 5px 1px rgb(225, 92, 92);
+} */
+.formButton {
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+  height: 45px;
+  color: white;
+  background-color: gray;
+  border-radius: 6px;
+}
+.blockSignOut {
+  display: none;
+  box-sizing: border-box;
+  width: 320px;
+  height: 80px;
+  border: 1px solid gray;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  left: 0;
+  right: 0;
+
+  background-color: white;
+}
+.signOut {
+  margin-top: 20px;
+  margin-left: 5px;
+  background-color: white;
+}
+.firstButton {
+}
+.cancel {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+}
+.out {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: rgb(225, 92, 92);
+  border-radius: 6px;
+}

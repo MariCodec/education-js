@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="firstBlockHiden">
+          <div class="firstHeader">
+            <div>
+              <button class="lockedButton">
+                <img
+                  class="buttonImg"
+                  src="https://img.icons8.com/external-dreamcreateicons-glyph-dreamcreateicons/344/external-unlocked-internet-security-dreamcreateicons-glyph-dreamcreateicons.png"
+                  alt=""
+                />
+              </button>
+            </div>
+
+            <div class="blockFirst">
+              <div class="buttonBold hover">B</div>
+              <div class="buttonCursive hover">I</div>
+              <div class="buttonUnderline hover">U</div>
+              <div class="buttonline-through hover">S</div>
+            </div>
+            <div class="blockSecond">
+              <div class="buttonAlignLeft hover">
+                <img
+                  class="buttonImg"
+                  src="https://img.icons8.com/material-outlined/2x/align-left.png"
+                  alt=""
+                />
+              </div>
+              <div class="buttonAlignCenter hover">
+                <img
+                  class="buttonImg"
+                  src="https://img.icons8.com/material-rounded/2x/align-center.png"
+                  alt=""
+                />
+              </div>
+              <div class="buttonAlignRight hover">
+                <img
+                  class="buttonImg"
+                  src="https://img.icons8.com/material/2x/align-right.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="blockThird">
+              <select class="buttonFamily hover" onchange="changeFamily()">
+                <option class="option" value="">A</option>
+                <option class="option" value="Arial">Arial</option>
+                <option class="option" value="Georgia">Georgia</option>
+                <option class="option" value="Tahoma">Tahoma</option>
+                <option class="option" value="Times New Roman">
+                  Times New Roman
+                </option>
+              </select>
+
+              <select class="buttonFSize hover" onchange="changeSize()">
+                <option class="option" value="">T</option>
+                <option class="option" value="12px">12px</option>
+                <option class="option" value="18px">18px</option>
+                <option class="option" value="22px">22px</option>
+                <option class="option" value="30px">30px</option>
+              </select>
+
+              <div class="buttonTextColor hover">
+                <img
+                  class="buttonImg"
+                  src="https://img.icons8.com/material-rounded/2x/paint-palette.png"
+                  alt=""
+                />
+              </div>
+              <div class="blockColorText">
+                <div class="blockTitle">
+                  <div class="title">Choose color text</div>
+                  <div class="close">✖</div>
+                </div>
+
+                <div class="colorsText">
+                  <div class="color">maroon</div>
+                  <div class="color">red</div>
+                  <div class="color">purple</div>
+                  <div class="color">fuchsia</div>
+                  <div class="color">green</div>
+                  <div class="color">lime</div>
+                  <div class="color">yellow</div>
+                  <div class="color">navy</div>
+                  <div class="color">blue</div>
+                  <div class="color">aqua</div>
+                </div>
+              </div>
+              <div class="buttonBackGround hover">
+                <img
+                  class="buttonImg"
+                  src="https://img.icons8.com/ios-glyphs/2x/pictures-folder.png"
+                  alt=""
+                />
+              </div>
+              <div class="blockColorBackGround">
+                <div class="blockTitle">
+                  <div class="title">Choose background color or image</div>
+                  <div class="closeBackgroundBlock">✖</div>
+                </div>
+                <div class="subtitle">
+                  <div class="colors">Colors</div>
+                  <div class="images">Images</div>
+                  <div class="files">Files</div>
+                </div>
+                <div class="hiddenColorBackground">
+                  <div class="colorsBackground">
+                    <div class="colorBackground">maroon</div>
+                    <div class="colorBackground">red</div>
+                    <div class="colorBackground">purple</div>
+                    <div class="colorBackground">fuchsia</div>
+                    <div class="colorBackground">green</div>
+                    <div class="colorBackground">lime</div>
+                    <div class="colorBackground">yellow</div>
+                    <div class="colorBackground">navy</div>
+                    <div class="colorBackground">blue</div>
+                    <div class="colorBackground">aqua</div>
+                  </div>
+                </div>
+                <div class="hiddenblockImages">
+                  <div class="imagesBackground">
+                    <div class="image">
+                      <img class="img" src="./images/14490.jpeg" alt="" />
+                    </div>
+                    <div class="image">
+                      <img class="img" src="./images/14476.jpeg" alt="" />
+                    </div>
+                    <div class="image">
+                      <img class="img" src="./images/20479803.jpeg" alt="" />
+                    </div>
+                    <div class="image">
+                      <img
+                        class="img"
+                        src="./images/beautiful sky tree wallpaper.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="image">
+                      <img
+                        class="img"
+                        src="./images/pexels-photo-1105189.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="image">
+                      <img
+                        class="img"
+                        src="./images/photo-1562073970-0c7e6b68428b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hiddenForms">
+                  <p>
+                    <input
+                      type="file"
+                      accept="image/*"
+                      name="image"
+                      id="file"
+                      onchange="loadFile(event)"
+                      style="display: none"
+                    />
+                  </p>
+                  <p>
+                    <label for="file" style="cursor: pointer"
+                      >Upload Image</label
+                    >
+                  </p>
+                  <p><img id="output" width="200" /></p>
+
+                  <!-- <img class="newImg" src="" alt="" /> -->
+                </div>
+              </div>
+            </div>
+            <div class="ButtonLogin hover">
+              <img
+                class="buttonImg"
+                src="https://img.icons8.com/ios-glyphs/2x/lock.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="tableBlock">
+          <div class="blockOption">
+            <div class="buttonSave hover">
+              <img
+                class="buttonImg"
+                src="https://img.icons8.com/ios-glyphs/344/save--v2.png"
+                alt=""
+              />
+            </div>
+            <div class="buttonCreateTable hover">
+              <img
+                class="buttonImg"
+                src="https://img.icons8.com/external-those-icons-fill-those-icons/344/external-Table-alignment-and-paragraphs-those-icons-fill-those-icons.png"
+                alt=""
+              />
+            </div>
+            <div class="buttonOList hover">
+              <img
+                class="buttonImg"
+                src="https://img.icons8.com/ios-glyphs/344/numbered-list.png"
+                alt=""
+              />
+            </div>
+            <div class="buttonUList hover">
+              <img
+                class="buttonImg"
+                src="https://img.icons8.com/metro/344/list.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="loginFormBlock">
+        <div class="myForm">
+          <div class="myFormTitle">
+            <div class="myForm-title">Sign in</div>
+            <div class="myForm-close">✖</div>
+          </div>
+          <div class="myFormContent">
+            <div class="formLogin">
+              <input
+                class="login"
+                type="text"
+                placeholder="login here.../admin/"
+              />
+            </div>
+            <div class="formpassword">
+              <input
+                class="password"
+                type="password"
+                placeholder="password here.../12345/ "
+              />
+              <p class="invalidText">please check your login or password</p>
+            </div>
+            <button class="formButton">Sign in</button>
+          </div>
+        </div>
+      </div>
+      <div class="blockSignOut">
+        <div class="signOut">
+          <button class="cancel">Cancel</button>
+
+          <button class="out">Sign Out</button>
+        </div>
+      </div>
+      <!--  -->
+      <div class="contentTextArea">
+        <textarea class="myTextContent" name="textContent">
+            <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          numquam?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          numquam?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          numquam?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          numquam?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          numquam?
+        </p>
+            </p>
+         
+            
+        </textarea>
+      </div>
+      <div class="createTableBlock">
+        <div class="myTable">
+          <div class="myTableBlock-title">
+            <div class="myTable-title">Create Table</div>
+            <div class="myTable-close">✖</div>
+          </div>
+          <div class="myTable-content">
+            <div class="tableBlockFirst">
+              <div class="tableRow">
+                Count TR:<br />
+                <p class="erorr"></p>
+
+                <input class="CountTR" type="text" placeholder="type here..." />
+              </div>
+              <div class="tableWidth">
+                Width of TD: <br />
+                <input class="widthTD" type="text" placeholder="type here..." />
+              </div>
+              <div class="widthBorder">
+                Width of Border: <br />
+                <input
+                  class="borderWidth"
+                  type="text"
+                  placeholder="type here..."
+                />
+              </div>
+              <button class="ResetTableButton">Reset</button>
+            </div>
+            <div class="tableBlockSecond">
+              <div class="tableDate">
+                Count TD: <br />
+                <input class="CountTD" type="text" placeholder="type here..." />
+              </div>
+              <div class="tableHeight">
+                Height of TD: <br />
+                <input
+                  class="heightTD"
+                  type="text"
+                  placeholder="type here..."
+                />
+              </div>
+              <div class="blockSection">
+                <div class="styleBorder-title">
+                  Style of Border <br />
+                  <select class="styleBorder">
+                    <option class="borderStyle" value="defolt">
+                      choose style
+                    </option>
+                    <option class="borderStyle" value="solid">solid</option>
+                    <option class="borderStyle" value="dotted">dotted</option>
+                  </select>
+                </div>
+                <div class="colorBorder-title">
+                  Color of Border <br />
+                  <select class="ColorBorder">
+                    <option class="borderColor" value="defolt">
+                      choose color
+                    </option>
+                    <option class="borderColor" value="yellow">yellow</option>
+                    <option class="borderColor" value="red">red</option>
+                    <option class="borderColor" value="blue">blue</option>
+                    <option class="borderColor" value="green">green</option>
+                  </select>
+                </div>
+              </div>
+              <button class="tableButton">Create table</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="createListBlockO">
+        <div class="oderedList">
+          <div class="oderedListTitle">
+            <div class="myList-title">Create list</div>
+            <div class="myListClose">✖</div>
+          </div>
+          <div class="listContent">
+            <div class="countOl">
+              Count li item: <br />
+              <input
+                class="countOlist"
+                type="text"
+                placeholder="type here..."
+              />
+            </div>
+            <div class="OlMarks">
+              Type mark of list: <br />
+              <select class="listOmark">
+                <option class="markOl" value="defolt">
+                  choose Ol type mark
+                </option>
+                <option class="markOl" value="lower-roman">i</option>
+                <option class="markOl" value="upper-roman">I</option>
+                <option class="markOl" value="decimal">1</option>
+                <option class="markOl" value="upper-alpha">A</option>
+                <option class="markOl" value="lower-alpha">a</option>
+              </select>
+            </div>
+          </div>
+          <div class="olButton">
+            <button class="resetOlButton">Reset</button>
+            <button class="createOlbutton">Create list</button>
+          </div>
+        </div>
+      </div>
+      <div class="createListBlockU">
+        <div class="oderedList">
+          <div class="oderedListTitle">
+            <div class="myList-title">Create unodered list</div>
+            <div class="myListCloseU">✖</div>
+          </div>
+          <div class="listContent">
+            <div class="countOl">
+              Count li item: <br />
+              <input
+                class="countOlist"
+                type="text"
+                placeholder="type here..."
+              />
+            </div>
+            <div class="OlMarks">
+              Type mark of list: <br />
+              <select class="listUmark">
+                <option class="markOl" value="defolt">
+                  choose Ul type mark
+                </option>
+                <option class="marks" value="circle">circle</option>
+                <option class="marks" value="square">square</option>
+                <option class="marks" value="disc">disc</option>
+              </select>
+            </div>
+          </div>
+          <div class="olButton">
+            <button class="resetUlButton">Reset</button>
+            <button class="createUlbutton">Create list</button>
+          </div>
+        </div>
+      </div>
+      <div class="content"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

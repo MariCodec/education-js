@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="screenThird">
+        <div class="screenThird-title">Choose what you wont:</div>
+        <div class="chooseRadioButton">
+          <input class="tableRadio" type="radio" name="table-check" value="table"  />table
+          <input class="listRadio"   type="radio" name="table-check" value="list" />list
+        </div>
+        <div class="table">
+          <div class="tableRow">
+            Count TR:
+            <input class="CountTR" type="text" value="" />
+          </div>
+          <div class="tableDate">
+            Count TD: <input class="CountTD" type="text" value="" />
+          </div>
+          <div class="tabelStyle">
+            <div class="tabelStyle-title">Add style to your table:</div>
+            <div class="tableWidth">
+              Width of TD:
+              <input class="widthTD" type="text" value="" />
+            </div>
+            <div class="tableHeight">
+              Height of TD:
+              <input class="heightTD" type="text" value="" />
+            </div>
+          </div>
+          <div class="borderStyle">
+            <div class="widthBorder">
+              Width of Border
+              <input class="borderWidth" type="text" value="" />
+            </div>
+            <div class="typeBorder-title">
+              Type of Border
+              <select class="TypeBorder">
+                <option class="borderType" value="solid">solid</option>
+                <option class="borderType" value="dotted">dotted</option>
+              </select>
+            </div>
+            <div class="colorBorder-title">
+              Color of Border
+              <select class="ColorBorder">
+               <option class="borderColor" value="yellow">yellow</option>
+                <option class="borderColor" value="red">red</option>
+                 <option class="borderColor" value="blue">blue</option>
+                <option class="borderColor" value="green">green</option>
+              </select>
+            </div>
+          </div>
+          <button class="tableButton">Create table</button>
+        </div>
+
+        <div class="chooseList">
+          <div class="chooseListCount">
+            Count Li:
+             <input class="CountLI" type="text" value="" />
+          </div>
+          <div class="typeOfMarks">
+            Type of marks:
+            <select class="marksList" >
+              <option class="marks" value="circle">circle</option>
+                <option class="marks" value="square">square</option>
+                   <option class="marks" value="disc">disc</option>
+            </select>
+          </div>
+            <button class="listButton">Create list</button>
+        </div>
+      </div>
+
+      <div class="screenFirst">
+        <div class="content"></div>
+      </div>
+
+      <div class="hiddenButton">
+        <div class="buttons">
+          <button class="buttonEdit">Edit</button>
+          <button class="buttonStyle">Style</button>
+        </div>
+      </div>
+      <div class="screenSecond">
+        <div class="hiddenEdit">
+          <textarea class="screen" name="" id="" cols="30" rows="10">
+            <p>Lorem, ipsum dolor.</p>
+            <p >Lorem, ipsum dolor.</p>
+            <p >Lorem, ipsum dolor.</p>
+            <p >Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+        </textarea
+          >
+          <div class="buttonsLast">
+            <button class="buttonAdd">Add</button>
+            <button class="buttonSave">Save</button>
+          </div>
+        </div>
+        <div class="hiddenStyle">
+          <div class="blockPosition">
+            <div class="leftContent">
+              <div class="fontSize">
+                <div class="title">Font Size:</div>
+                <input type="radio" name="12" value="12px" />12px
+                <input type="radio" name="12" value="14px" />14px
+                <input type="radio" name="12" value="16px" />16px
+                <input type="radio" name="12" value="18px" />18px
+                <input type="radio" name="12" value="20px" />20px
+              </div>
+              <div class="fontFamily">
+                <div class="title">Font Family:</div>
+                <select class="listType" onchange="getSelectType()">
+              
+                  <option class="list" value="cursive">cursive</option>
+                  <option class="list" value="fantasy">fantasy</option>
+                  <option class="list" value="monospace">monospace</option>
+                  <option class="list" value="sans-serif">sens-serif</option>
+                </select>
+              </div>
+              <div class="AddColors">
+                <div class="title">Colors:</div>
+                <button class="buttonColorText">Color of Text</button>
+                <button class="buttonBackground">Background color</button>
+              </div>
+              <div class="Style">
+                <div class="title">Style:</div>
+                <input
+                  class="StyleBold"
+                  name="a"
+                  type="radio"
+                  value="bold"
+                />bold text
+                <input
+                  class="StyleCursive"
+                  name="a"
+                  type="radio"
+                  value="normal"
+                />
+                Cursive text
+              </div>
+            </div>
+
+            <div class="rightColorContent">
+              <div class="hiddenBlockWithColorsOne">
+                <div class="blockColors">
+                  <div class="color">red</div>
+                  <div class="color">green</div>
+                  <div class="color">yellow</div>
+                  <div class="color">pink</div>
+                  <div class="color">purple</div>
+                  <div class="color">gray</div>
+                  <div class="color">greenyellow</div>
+                  <div class="color">blue</div>
+                  <div class="color">brown</div>
+                </div>
+                </div>
+                 <div class="hiddenBlockWithColorsTwo">
+                 <div class="blockColorsBackgraund">
+                  <div class="colorBackground">red</div>
+                  <div class="colorBackground">green</div>
+                  <div class="colorBackground">yellow</div>
+                  <div class="colorBackground">pink</div>
+                  <div class="colorBackground">purple</div>
+                  <div class="colorBackground">gray</div>
+                  <div class="colorBackground">greenyellow</div>
+                  <div class="colorBackground">blue</div>
+                  <div class="colorBackground">brown</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>

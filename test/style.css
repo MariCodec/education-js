@@ -1,0 +1,257 @@
+.wrapper {
+  margin: 0 auto;
+}
+
+/* LIST */
+.chooseList {
+  display: none;
+}
+.CountLI {
+  margin-left: 80px;
+  width: 500px;
+  height: 25px;
+}
+.chooseListCount {
+  padding: 10px;
+}
+.typeOfMarks {
+  padding: 10px;
+}
+.marksList {
+  margin-left: 45px;
+  width: 510px;
+  height: 30px;
+}
+.listButton {
+  width: 100px;
+  height: 30px;
+  color: whitesmoke;
+  background-color: green;
+}
+.screenThird {
+  display: none;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+  width: 800px;
+  height: auto;
+  background-color: rgb(235, 233, 233);
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+}
+/* TABLE */
+.table {
+  display: none;
+}
+.tableRow {
+  padding: 10px;
+}
+.tableDate {
+  padding: 10px;
+}
+.CountTR {
+  margin-left: 80px;
+  width: 500px;
+  height: 20px;
+}
+.CountTD {
+  margin-left: 80px;
+  width: 500px;
+  height: 20px;
+}
+.screenThird-title {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.tabelStyle-title {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.widthTD {
+  margin-left: 60px;
+  width: 500px;
+  height: 20px;
+}
+.heightTD {
+  margin-left: 55px;
+  width: 500px;
+  height: 20px;
+}
+.tableWidth {
+  padding: 10px;
+}
+.tableHeight {
+  padding: 10px;
+}
+.borderStyle {
+  display: flex;
+  padding: 10px;
+}
+.borderWidth {
+  width: 80px;
+  height: 25px;
+  margin: 10px;
+  margin-left: 40px;
+}
+.TypeBorder {
+  width: 90px;
+  height: 30px;
+  margin: 10px;
+}
+.ColorBorder {
+  width: 90px;
+  height: 30px;
+  margin: 10px 5px;
+}
+
+.tableButton {
+  width: 100px;
+  height: 30px;
+  color: whitesmoke;
+  background-color: green;
+}
+.screenFirst {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 800px;
+  height: auto;
+  background-color: rgb(235, 233, 233);
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+}
+.content {
+  margin: 25px;
+  min-height: 250px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttonEdit {
+  cursor: pointer;
+  margin: 10px 5px;
+  width: 70px;
+  height: 40px;
+  background-color: rgba(255, 166, 0, 0.795);
+  border-radius: 4px;
+}
+.buttonStyle {
+  cursor: pointer;
+  margin: 10px 5px;
+  width: 70px;
+  height: 40px;
+  background-color: rgba(0, 153, 255, 0.38);
+  border-radius: 4px;
+}
+.screenSecond {
+  margin: 0 auto;
+  width: 800px;
+  height: 270px;
+  background-color: rgb(235, 233, 233);
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+}
+.hiddenEdit {
+  display: none;
+  /* visibility: hidden; */
+}
+.screen {
+  margin: 20px;
+  width: 750px;
+  height: 150px;
+  background-color: white;
+}
+.buttonAdd {
+  cursor: pointer;
+
+  margin-left: 20px;
+  width: 70px;
+  height: 40px;
+  background-color: rgba(234, 7, 7, 0.823);
+  border-radius: 4px;
+  color: white;
+}
+.buttonSave {
+  cursor: pointer;
+  margin-left: 3px;
+  width: 70px;
+  height: 40px;
+  background-color: rgba(0, 128, 0, 0.829);
+  border-radius: 4px;
+  color: white;
+}
+.buttonsLast {
+  display: flex;
+}
+
+.hiddenStyle {
+  display: none;
+}
+.blockPosition {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+.listType {
+  width: 250px;
+  height: 30px;
+}
+.buttonColorText {
+  height: 35px;
+  background-color: slategray;
+  border-radius: 3px;
+  color: white;
+}
+.buttonBackground {
+  height: 35px;
+
+  background-color: slategray;
+  border-radius: 3px;
+  color: white;
+}
+.rightColorContent {
+  /* width: auto; */
+  display: flex;
+  padding-right: 100px;
+  align-items: center;
+}
+.hiddenBlockWithColorsOne {
+  display: none;
+}
+.hiddenBlockWithColorsTwo {
+  display: none;
+}
+.blockColors {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 200px;
+}
+.blockColorsBackgraund {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 200px;
+}
+.color {
+  background-color: aliceblue;
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+}
+.colorBackground {
+  background-color: aliceblue;
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+}
